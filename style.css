@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
+
+body {
+  background: linear-gradient(230.65deg, #5f2e73 27.49%, #509954 83.19%);
+  font-family: "Source Code Pro", monospace;
+  background-repeat: fill;
+}
+.container {
+  background: #ecf4ff;
+  color: #1c011a;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 40px;
+}
+.cabecalho{
+  display: flex;
+  justify-content:space-between;
+}
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 300px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.titulo {
+  margin-left: 15px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+  background: rgba(100, 100, 100, 0.2);
+  border-color:rgba(100, 100, 100, 0.2);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 16px;
+  border-radius: 100px;
+  align-self: flex-end;
+}
+.projetos {
+  color: #1c011a;
+  min-height: 300px;
+  padding: 10px;
+  margin-top: 50px;
+  background: rgba(43, 37, 46, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  font-size: 18px;
+}
+.projetos ul {
+  font-weight: 700;
+  font-size: 36px;
+  list-style-type: none;
+}
+.projetos ul li {
+  color:#a888b5;
+  background: rgba(20, 0, 20, 0.6);
+  margin-top: 5px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.redes li {
+  list-style-type: none;
+  margin-top: 5px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  float: left;
+  padding: 2px 5px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.dark {
+  background:linear-gradient(230.65deg, #3c1b4a 27.49%, #173619 83.19%);
+}
+.dark .container {
+  background: #333439;
+  color:#f6f6f6;
+
+}
+.dark .projetos {
+  background: rgba(154, 89, 181, 1);
+}
+.dark .tema button {
+  color:white;
+}
